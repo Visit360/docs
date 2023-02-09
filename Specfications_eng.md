@@ -13,16 +13,15 @@ We have two modes in this software, we can switch between the two (with a button
 * Have access to the history console and be able to reduce it and scroll.
 * Ability to delete history through a button
 * Find yourself on the Minimap with a color change for example
-* To move to the Minimap by selecting points of interest.
+* To move through the scenes the Minimap by selecting points of interest.
 
 
 ### Edition Mode 
-* Import panoramas (360 images)
+* Select Polytech panoramas to Edit
 * Add hotspots for each panorama 
      - Door: allows navigation from one panorma to another
      - Information pop-up: displays static information 
-* Edit a MiniMap: 
-    - Import a plan
+* Edit the MiniMap based on the floor plan : 
     - Add points of interest
     - Associate panoramas
 
@@ -35,6 +34,8 @@ We have two modes in this software, we can switch between the two (with a button
 * On the phone for example, automatic opening of popup during centering (using accelerometer)
 
 ### Edition Mode
+* Import panoramas
+* Import the floor plan of the visit
 * Add hotspots for each panorama 
      - Information pop-up: displays dynamic information (real time)
      - Sound spacial: adds sound to the panorama
