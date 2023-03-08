@@ -1,4 +1,4 @@
-# Specification 
+# Documentation 
 # VISIT360 - Virtual Tour Editor
 ## About 
 
@@ -17,7 +17,7 @@ The Visit360 web page is accessible via the following link : http://localhost:80
 ### Edition Mode
 
 You'll arrive on the Edition Mode of the software. In the right side, you have a list of panoramical images that you can select to add to your visit.
-Adding a panorama to your visit requires selecting it, then clicking the button *+Add Panorama*, this will open a pop-up where you can type an Id to your scene (a title), then click the button *Submit*. This will move your scene to the top of the list and turn the red mark to a green one. Hovering an added scene enables you to see the id id that you alreasy set.  
+Adding a panorama to your visit requires selecting it, then clicking the button *Add Panorama*, this will open a pop-up where you can type an Id to your scene (a title), then click the button *Submit*. This will move your scene to the top of the list and turn the red mark to a green one. Hovering an added scene enables you to see the id id that you alreasy set.  
 In the center of the page, you have the panorama that you're actually editing, you can drag the panorama using your mouse to navigate in it, you can zoom in or out and you can go to the full screen mode. Buttons allowing you to do that are in the top left corner. The title/ID of the current panorama (scene) is in the bottom left corner of the visualization.  
 In the right side, we have a list of buttons allowing different features in our software :   
 - To add an information to the current panorama, you have to click on the place where where you want to add it in the panorama, then click the button *Add Information*, this will open a pop-up where you can type your description and submit it to be added. Later you can read that description once you hover the *Information Hotspot* icon in the panorama.
