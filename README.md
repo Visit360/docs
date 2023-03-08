@@ -1,8 +1,8 @@
-# Documentation 
+# Specification 
 # VISIT360 - Virtual Tour Editor
 ## About 
 
-Visit360 is a software that aims to create virtual visits of any building using panoramical 360* images.  
+Visit360 is a software that aims to create virtual visits of any building using panoramical 360° images.  
 For the demonstration phase, we created a web page that allows you to edit and save the virtual visit of Polytech Grenoble and some other buildings taken as examples.  
 The demonstration is based on a web page using HTML, JavaScript and CSS and most importantly the library Panellum which is a lightweight, free, and open source panorama viewer for the web. It's built using HTML5, CSS3, JavaScript, and WebGL.
 
