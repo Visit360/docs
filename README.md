@@ -62,7 +62,9 @@ Visit360 is distributed under the MIT License.
 Pannellum is distributed under the MIT License
 
 ## Credits 
-Petroff, Matthew A. "Pannellum: a lightweight web-based panorama viewer." Journal of Open Source Software 4, no. 40 (2019): 1628. doi:10.21105/joss.01628
+Petroff, Matthew A. "Pannellum: a lightweight web-based panorama viewer." Journal of Open Source Software 4, no. 40 (2019):  
+<a href="https://doi.org/10.21105/joss.01628" rel="nofollow">doi:10.21105/joss.01628</a>
+
 
 
 
