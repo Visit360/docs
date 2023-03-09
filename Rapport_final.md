@@ -36,7 +36,7 @@ L'outil web contient plusieurs modes qui sont :
 
 ### **Cahier des charges**
 
-Lors des premières semaines de notre projet, nous avons réalisé un cahier des charges à la suite d'une réunion avec notre tuteur et chef de projet, monsieur Didier DONSEZ. Nous avons ainsi défini les fonctionnalités suivantes pour chaque mode.
+Lors des premières semaines de notre projet, nous avons réalisé un cahier des charges à la suite d'une réunion avec notre tuteur et porteur de projet, monsieur Didier DONSEZ. Nous avons ainsi défini les fonctionnalités suivantes pour chaque mode.
 
 **Mode visualisation**
 * Visualiser les panoramas
