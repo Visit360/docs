@@ -20,7 +20,16 @@ NGUYEN - Justin
 
 
 # Abstract
+Virtual tour creation tools are not a new technology, the many existing solutions are proof of this.  
+However, most of them are under a license that is not free of rights.  
+Our project, visit360, will allow the creation and visualisation of virtual tours using panoramic photos.  
+We will use the Pannellum library, which is open source, to create a web demonstration tool.
+
 # Résumé
+Les outils de création de visite virtuelle ne sont pas une nouvelle technologie, les nombreuses solutions existantes en sont la preuve.  
+Cependant, la plupart sont sous license payante non libre de droits.  
+Notre projet, visit360 permettra de réaliser et visualiser des visites virtuelles à l'aide de photos panoramiques.  
+On utilisera pour cela la bibliothèque Pannellum, qui est open source pour réaliser un outil de démonstration web.
 # Contexte <a id="contexte"></a>
 
 ### **Rappel du sujet** 
@@ -108,7 +117,10 @@ Les panoramas sont déjà importés dans le dépôt et la visite est stockée so
 
 # Gestion de projet <a id="gestion"></a>
 
-Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)
+Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)  
+
+Au départ nous utilisions Monday pour planifier les tâches de chacun mais au fur et à mesure de l'avancement du projet, l'utilisation d'un journal de bord était devenue suffisante pour notre groupe: on pouvait indiquer les tâches que nous avions réalisé chaque jour tout en ajoutant les tâches que nous voulions réaliser la prochaine séance.
+
 
 # Outils <a id="outils"></a>
 Utilisation de Github pour l'organisation contenant le dépôt du code et la documentation mais aussi l'hébergement de la Github page.
