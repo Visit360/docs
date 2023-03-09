@@ -14,7 +14,7 @@ NGUYEN - Justin
 6. [Réalisations techniques](#realisation)
 7. [Gestion de projet](#gestion)
 8. [Outils](#outils)
-9. [Métriques logiciels](#metriques)
+9. [Métriques logicielles](#metriques)
 10. [Conclusion](#conclusion)
 
 
@@ -95,11 +95,14 @@ Nous avons tout d'abord réalisé plusieurs photographies panoramiques de diffé
 Pour réaliser ces différentes photos, nous avons eu accès à 
 
 
-**Fonctionnalités facultatives du mode édition**
+### **Bibliothèque Pannellum**
+Pour réaliser, visualiser et modifier les visites, on utilise la bibliothèque Pannellum.  
+Pannellum est une bibliothèque *open source* pour la visualisation panoramique pour le web. 
 
 
-
-# Architecture techniques <a id="archi"></a>
+# Architecture technique <a id="archi"></a>
+L'outil repose sur une architecture client serveur et on utilise une Github page pour le déploiement car nous n'avons pas besoin de base de données.
+Les panoramas sont déjà importés dans le dépôt et la visite est stockée sous un format JSON.
 
 # Réalisations techniques <a id="realisation"></a>
 
@@ -108,10 +111,10 @@ Pour réaliser ces différentes photos, nous avons eu accès à
 Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)
 
 # Outils <a id="outils"></a>
+Utilisation de Github pour l'organisation contenant le dépôt du code et la documentation mais aussi l'hébergement de la Github page.
 
-Outils (collaboration, CD/CI ...)
 
-# Métriques logiciels <a id="metriques"></a>
+# Métriques logicielles <a id="metriques"></a>
 Métriques logiciels : lignes de code, langages, performance, temps ingénieur (d'après vos journaux), la répartition des lignes de code et des commits en pourcentage entre les membres du projet ...)
 
 nombre de commit par personne :  
