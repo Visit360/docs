@@ -106,15 +106,23 @@ Nous avons tout d'abord réalisé plusieurs photographies panoramiques de diffé
 
 Pour réaliser ces différentes photos, nous avons eu accès à une caméra insta 360 oneRS. Elle nous a permis de prendre des photo facilement grâce à l'application smartphone insta360. Nous disposions alors d'une prévisualisation des photo directement sur notre écran ce qui nous a permis d'être efficace.
 
+<img src="https://github.com/Visit360/docs/blob/main/insta360-one-rs-1.jpg" width="300" height="300">
 
 ### **Bibliothèque Pannellum**
 Pour réaliser, visualiser et modifier les visites, on utilise la bibliothèque Pannellum.  
 Pannellum est une bibliothèque *open source* pour la visualisation panoramique pour le web.
 C'est également grâce à cette bibliothèque que nous avons pu gérer le zoom au sein de l'image panoramique, l'ajout d'hotspot (portes et informations), et la sauvegarde des visites sous formats JSON.  
-Même si cette bibliothèque offre plusieurs fonctionnalités très interessantes en terme de visualisation d'image panoramique, elle ne contenait pas tout les éléments dont nous avions besoin. Par exemple, Pannellum ne permet pas à l'utilisateur de supprimer des hotspot. L'essentiel de notre travail de développement s'est donc porté sur ces fonctionnalités non disponibles. 
+Même si cette bibliothèque offre plusieurs fonctionnalités très interessantes en terme de visualisation d'image panoramique, elle ne contenait pas tout les éléments dont nous avions besoin. Par exemple, Pannellum ne permet pas à l'utilisateur de supprimer des hotspot. L'essentiel de notre travail de développement s'est donc porté sur ces fonctionnalités non disponibles.  
+
+
+<img src="https://github.com/Visit360/docs/blob/main/Pannellum.jpeg" width="300" height="300">
+
 
 ### **HTML - JAVASCRIPT - CSS**
-Pour coder le site web, nous avons choisi d'utiliser ces trois technologies très classique. Nous n'avons pas utilisé d'autres outils de frontend tel que React ou Angular car cela nous a semblé innutile étant donné la simplicité des pages web à programmer. 
+Pour coder le site web, nous avons choisi d'utiliser ces trois technologies très classique. Nous n'avons pas utilisé d'autres outils de frontend tel que React ou Angular car cela nous a semblé innutile étant donné la simplicité des pages web à programmer.  
+
+
+<img src="https://github.com/Visit360/docs/blob/main/html_js_css.png" width="300" height="300">
 
 
 # Architecture technique <a id="archi"></a>
@@ -162,7 +170,7 @@ nombre de ligne de code :
 # Conclusion <a id="conclusion"></a>
 Conclusion (Retour d'expérience) 
 
-# Annexes <a id="annexes"></a>
+# Annexes <a id="annexe"></a>
 ### **Références** 
 * Définition d'une GitHub Page : "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages"
 * Petroff, Matthew A. "Pannellum: a lightweight web-based panorama viewer." Journal of Open Source Software 4, no. 40 (2019): "https://doi.org/10.21105/joss.01628"
