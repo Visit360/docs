@@ -101,17 +101,21 @@ Nous avons tout d'abord réalisé plusieurs photographies panoramiques de diffé
 * Appartement connecté DOMUS (au sein de la MACI - 339 Av. Centrale, 38400 Saint-Martin-d'Hères)
 * La Casemate Grenoble (2 Pl. Saint-Laurent, 38000 Grenoble)
 
-Pour réaliser ces différentes photos, nous avons eu accès à 
+Pour réaliser ces différentes photos, nous avons eu accès à une caméra insta 360 oneRS. Elle nous a permis de prendre des photo facilement grâce à l'application smartphone insta360. Nous disposions alors d'une prévisualisation des photo directement sur notre écran ce qui nous a permis d'être efficace.
 
 
 ### **Bibliothèque Pannellum**
 Pour réaliser, visualiser et modifier les visites, on utilise la bibliothèque Pannellum.  
-Pannellum est une bibliothèque *open source* pour la visualisation panoramique pour le web. 
+Pannellum est une bibliothèque *open source* pour la visualisation panoramique pour le web.
+C'est également grâce à cette bibliothèque que nous avons pu gérer le zoom au sein de l'image panoramique, l'ajout d'hotspot (portes et informations), et la sauvegarde des visites sous formats JSON.  
+Même si cette bibliothèque offre plusieurs fonctionnalités très interessantes en terme de visualisation d'image panoramique, elle ne contenait pas tout les éléments dont nous avions besoin. Par exemple, Pannellum ne permet pas à l'utilisateur de supprimer des hotspot. L'essentiel de notre travail de développement s'est donc porté sur ces fonctionnalités non disponibles. 
+
+### **HTML - JAVASCRIPT - CSS**
+Pour coder le site web, nous avons choisi d'utiliser ces trois technologies très classique. Nous n'avons pas utilisé d'autres outils de frontend tel que React ou Angular car cela nous a semblé innutile étant donné la simplicité des pages web à programmer. 
 
 
 # Architecture technique <a id="archi"></a>
-L'outil repose sur une architecture client serveur et on utilise une Github page pour le déploiement car nous n'avons pas besoin de base de données.
-Les panoramas sont déjà importés dans le dépôt et la visite est stockée sous un format JSON.
+L'outil repose sur une architecture client serveur et on utilise une Github page pour le déploiement. En effet, étant donnée que le projet est encore dans une phase de démonstration, nous n'avons pas besoin de base de données. Les panoramas sont déjà importés dans le dépôt et l'utilisateur n'a pas les moyens pour l'instant d'importer ses propres images. Les visites seront réalisées sous format JSON. 
 
 # Réalisations techniques <a id="realisation"></a>
 
@@ -119,7 +123,20 @@ Les panoramas sont déjà importés dans le dépôt et la visite est stockée so
 
 Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)  
 
-Au départ nous utilisions Monday pour planifier les tâches de chacun mais au fur et à mesure de l'avancement du projet, l'utilisation d'un journal de bord était devenue suffisante pour notre groupe: on pouvait indiquer les tâches que nous avions réalisé chaque jour tout en ajoutant les tâches que nous voulions réaliser la prochaine séance.
+Dans cette partie, nous allons aborder notre gestion de projet. 
+
+Tout d'abord, nous avons défini les rôles de chaque membre du groupe. Etant donné que nous somme une petite équipe de développement de seulement 3 personnes, nous avons décidé qu'il fallait seulement désigner un chef de projet : Justin NGUYEN. C'est lui qui s'est occupé de la communication avec notre tuteur et qui a organisé les réunions de groupes. Le fait qu'on se connaissait tous depuis déjà un certain temps à grandement aidé au bon déroulement du projet, nous n'avons pas eu de soucis de communication particulier. 
+
+Nous avons mis en place un planning prévisionnel au départ de notre projet sur une plateforme appellée Monday.com. C'est une plate-forme Web et une application mobile dédiée à la gestion de tâches, notamment le suivi de projets, du temps et de la collaboration en équipe. Elle se présente sous la forme d'un tabeau avec différentes tâches à effectuer, auxquelles on peut y associer des dates de début et de fin, des niveau de criticité, et des membre de l'équipe affectés à celles-ci. Au bout de quelques jours seulement, nous nous sommes rendu compte que cet outil très complet était plus déstiné à des équipes plus conséquentes que la notre. En effet, comme nous nous sommes rejoint pour travailler quasiment tout les jours du projet, nous avons constaté qu'un journal de bord était suffisant pour notre groupe. Chaque jours, on pouvait indiquer les tâches que nous avions réalisées tout en ajoutant les tâches que nous voulions réaliser la prochaine séance.
+
+Notre méthode de travail se divise en plusieurs partie : 
+-Lors des premières semaines du projet, nous avons principalement réalisé les tâches suivantes : définir le cahier des charges avec le plus de précision possible, réaliser une maquette de notre site web, choisir les technologies que nous allions utiliser tout au long du projet. Lors de cette première phase, nous avions tous le même rôle et nous avons travaillé de manière synchronisée sur chaque tâche.  
+-Dans une seconde phase, nous avons commencé le développement. Lors de cette phase, nous nous somme divisé le travail en terme de fonctionnalité. Ayman et Clara codaient les différentes fonctionnalités précédemment énnoncés dans le cahier des charges, sans se soucier du "style" où de l'affichage. Justin reprennait les différentes fonctionnalités, les ajoutaient ensembe et réalisait le CSS associé.   
+-A chaque ajout de fonctionnalité, nous retestions l'ensemble du code afin qu'il soit le plus stable possible.  
+-Entre temps, nous sommes allé prendre des photos dans différents bâtiment et nous avons créé des visite pour chaqu'un d'entre eux  
+-Lors des dernières semaines, nous nous sommes concentré sur les test finaux, la correction de bugs, la promotion de notre projet (réalisation de poster et de flyer), mais également la documentation et le commentaire de code. Il est essenteil pour nous que notre code soit bien commenté, pour nous même et pour les futurs étudiants qui reprendront le projet après nous.    
+
+Nous avons finalement pu réaliser toutes les fonctionnalités se trouvant dans le cahier des charges initial, plus quelques fonctionnalités bonus que nous avons évidement définies avec notre tuteur de projet. Nous considérons alors que nous avons eu une gestion de projet efficace et adaptée à notre groupe.
 
 
 # Outils <a id="outils"></a>
@@ -139,10 +156,11 @@ nombre de ligne de code :
 
 
 # Conclusion <a id="conclusion"></a>
-Conclusion (Retour d'expérience)
+Conclusion (Retour d'expérience) 
 
 
 
 
 
 
+ 
