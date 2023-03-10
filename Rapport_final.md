@@ -35,8 +35,10 @@ On utilisera pour cela la bibliothèque Pannellum, qui est open source pour réa
 ### **Rappel du sujet** 
 
 L'objectif du projet est de développer un outil (web) facilitant la construction de visites virtuelles.  
+ 
+Une visite virtuelle est un moyen de simuler la visite d'un site à 360°. Plusieurs images panoramiques se succèderont au moyen d'interaction avec l'utilisateur. La visite virtuelle permet également à l'utilisateur de lire des information et de se repérer sur une minimap (ou plan de la visite).  
 
-L'outil web contient plusieurs modes qui sont : 
+L'outil web contient que nous avons conçus plusieurs modes qui sont : 
 * **Le mode visualisation** : il nous permet d'avoir un aperçu de la visite créée dans le mode édition. Nous pouvons également observer la minimap qui correspond au plan de la visite.
 * **Le mode édition** : permettant de créer les visites
 * **Le mode édition minimap** : permet de réaliser une minimap correpondant à la visite.
