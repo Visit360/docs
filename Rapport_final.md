@@ -16,6 +16,7 @@ NGUYEN - Justin
 8. [Outils](#outils)
 9. [Métriques logicielles](#metriques)
 10. [Conclusion](#conclusion)
+11. [Annexes](#annexe)
 
 
 
@@ -117,7 +118,8 @@ Pour coder le site web, nous avons choisi d'utiliser ces trois technologies trè
 
 
 # Architecture technique <a id="archi"></a>
-L'outil repose sur une architecture client serveur et on utilise une Github page pour le déploiement. En effet, étant donnée que le projet est encore dans une phase de démonstration, nous n'avons pas besoin de base de données. Les panoramas sont déjà importés dans le dépôt et l'utilisateur n'a pas les moyens pour l'instant d'importer ses propres images. Les visites seront réalisées sous format JSON. 
+L'outil repose sur une architecture client serveur et on utilise une Github page pour le déploiement. Selon le site doc.GitHub.com : "GitHub Pages est un service d'hébergement de site statique qui récupère les fichiers HTML, CSS et JavaScript directement à partir d'un référentiel sur GitHub, exécute éventuellement les fichiers via un processus de construction et publie un site Web."  
+En effet, étant donnée que le projet est encore dans une phase de démonstration, nous n'avons pas besoin de base de données, ni d'une architecture très poussée.Les panoramas sont déjà importés dans le dépôt et l'utilisateur n'a pas les moyens pour l'instant d'importer ses propres images. Les visites seront réalisées sous format JSON. 
 
 # Réalisations techniques <a id="realisation"></a>
 
@@ -159,6 +161,12 @@ nombre de ligne de code :
 
 # Conclusion <a id="conclusion"></a>
 Conclusion (Retour d'expérience) 
+
+# Annexes <a id="annexes"></a>
+### **Références** 
+* Définition d'une GitHub Page : "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages"
+* 
+
 
 
 
