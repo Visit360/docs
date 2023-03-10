@@ -165,7 +165,8 @@ Conclusion (Retour d'expérience)
 # Annexes <a id="annexes"></a>
 ### **Références** 
 * Définition d'une GitHub Page : "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages"
-* 
+* Petroff, Matthew A. "Pannellum: a lightweight web-based panorama viewer." Journal of Open Source Software 4, no. 40 (2019): "https://doi.org/10.21105/joss.01628"
+* Documentation Pannellum : "https://pannellum.org/documentation/overview/"
 
 
 
