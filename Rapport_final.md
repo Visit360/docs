@@ -13,10 +13,9 @@ NGUYEN - Justin
 5. [Architecture technique](#archi)
 6. [Réalisations techniques](#realisation)
 7. [Gestion de projet](#gestion)
-8. [Outils](#outils)
-9. [Métriques logicielles](#metriques)
-10. [Conclusion](#conclusion)
-11. [Annexes](#annexe)
+8. [Métriques logicielles](#metriques)
+9. [Conclusion](#conclusion)
+10. [Annexes](#annexe)
 
 
 
@@ -120,6 +119,11 @@ Pour coder le site web, nous avons choisi d'utiliser ces trois technologies trè
 
 <img src="https://github.com/Visit360/docs/blob/main/html_js_css.png" width="300" height="300">
 
+### **GitHub**
+Utilisation de Github pour l'organisation contenant le dépôt du code et la documentation mais aussi l'hébergement de la Github page.
+
+### **Monday et google Doc**
+Pour la gestion de projet/planning
 
 # Architecture technique <a id="archi"></a>
 L'outil repose sur une architecture client serveur et on utilise une Github page pour le déploiement. Selon le site doc.GitHub.com : "GitHub Pages est un service d'hébergement de site statique qui récupère les fichiers HTML, CSS et JavaScript directement à partir d'un référentiel sur GitHub, exécute éventuellement les fichiers via un processus de construction et publie un site Web."  
@@ -146,7 +150,7 @@ Dans cette partie, nous allons aborder notre gestion de projet.
 
 Tout d'abord, nous avons défini les rôles de chaque membre du groupe. Etant donné que nous somme une petite équipe de développement de seulement 3 personnes, nous avons décidé qu'il fallait seulement désigner un chef de projet : Justin NGUYEN. C'est lui qui s'est occupé de la communication avec notre tuteur et qui a organisé les réunions de groupes. Le fait qu'on se connaissait tous depuis déjà un certain temps à grandement aidé au bon déroulement du projet, nous n'avons pas eu de soucis de communication particulier. 
 
-Nous avons mis en place un planning prévisionnel au départ de notre projet sur une plateforme appellée Monday.com. C'est une plate-forme Web et une application mobile dédiée à la gestion de tâches, notamment le suivi de projets, du temps et de la collaboration en équipe. Elle se présente sous la forme d'un tabeau avec différentes tâches à effectuer, auxquelles on peut y associer des dates de début et de fin, des niveau de criticité, et des membre de l'équipe affectés à celles-ci. Au bout de quelques jours seulement, nous nous sommes rendu compte que cet outil très complet était plus déstiné à des équipes plus conséquentes que la notre. En effet, comme nous nous sommes rejoint pour travailler quasiment tout les jours du projet, nous avons constaté qu'un journal de bord était suffisant pour notre groupe. Chaque jours, on pouvait indiquer les tâches que nous avions réalisées tout en ajoutant les tâches que nous voulions réaliser la prochaine séance.
+Nous avons mis en place un planning prévisionnel au départ de notre projet sur une plateforme appellée Monday.com. C'est une plate-forme Web et une application mobile dédiée à la gestion de tâches, notamment le suivi de projets, du temps et de la collaboration en équipe. Elle se présente sous la forme d'un tabeau avec différentes tâches à effectuer, auxquelles on peut y associer des dates de début et de fin, des niveau de criticité, et des membre de l'équipe affectés à celles-ci. Au bout de quelques jours seulement, nous nous sommes rendu compte que cet outil très complet était plus déstiné à des équipes plus conséquentes que la notre. En effet, comme nous nous sommes rejoint pour travailler quasiment tout les jours du projet, nous avons constaté qu'un journal de bord google Doc était suffisant pour notre groupe. Chaque jours, on pouvait indiquer les tâches que nous avions réalisées tout en ajoutant les tâches que nous voulions réaliser la prochaine séance.
 
 Notre méthode de travail se divise en plusieurs partie : 
 * Lors des premières semaines du projet, nous avons principalement réalisé les tâches suivantes : définir le cahier des charges avec le plus de précision possible, réaliser une maquette de notre site web, choisir les technologies que nous allions utiliser tout au long du projet. Lors de cette première phase, nous avions tous le même rôle et nous avons travaillé de manière synchronisée sur chaque tâche.  
@@ -156,10 +160,6 @@ Notre méthode de travail se divise en plusieurs partie :
 * Lors des dernières semaines, nous nous sommes concentré sur les test finaux, la correction de bugs, la promotion de notre projet (réalisation de poster et de flyer), mais également la documentation et le commentaire de code. Il est essenteil pour nous que notre code soit bien commenté, pour nous même et pour les futurs étudiants qui reprendront le projet après nous.    
 
 Nous avons finalement pu réaliser toutes les fonctionnalités se trouvant dans le cahier des charges initial, plus quelques fonctionnalités bonus que nous avons évidement définies avec notre tuteur de projet. Nous considérons alors que nous avons eu une gestion de projet efficace et adaptée à notre groupe.
-
-
-# Outils <a id="outils"></a>
-Utilisation de Github pour l'organisation contenant le dépôt du code et la documentation mais aussi l'hébergement de la Github page.
 
 
 # Métriques logicielles <a id="metriques"></a>
