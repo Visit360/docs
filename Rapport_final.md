@@ -23,13 +23,13 @@ NGUYEN - Justin
 # Abstract
 Virtual tour creation tools are not a new technology, the many existing solutions are proof of this.  
 However, most of them are under a license that is not free of rights.  
-Our project, visit360, will allow the creation and visualisation of virtual tours using panoramic photos.  
+To remedy this problem, our project visit360 will allow the creation and visualisation of virtual tours using panoramic photos.  
 We will use the Pannellum library, which is open source, to create a web demonstration tool.
 
 # Résumé
 Les outils de création de visite virtuelle ne sont pas une nouvelle technologie, les nombreuses solutions existantes en sont la preuve.  
 Cependant, la plupart sont sous license payante non libre de droits.  
-Notre projet, visit360 permettra de réaliser et visualiser des visites virtuelles à l'aide de photos panoramiques.  
+Pour pallier à ce problème, notre projet visit360 permettra de réaliser et visualiser des visites virtuelles à l'aide de photos panoramiques.  
 On utilisera pour cela la bibliothèque Pannellum, qui est open source pour réaliser un outil de démonstration web.
 # Contexte <a id="contexte"></a>
 
