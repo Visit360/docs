@@ -93,7 +93,12 @@ Nous avons également définit des fonctionnalités facultatives
 # Technologies employées <a id="tech"></a>
 
 Pour réaliser notre projet, nous avons utilisé différentes technologies.
+
 ### **Caméra insta360 one RS**
+
+La caméra 360 ONE RS 1-Inch 360 Edition de chez Insta360 offre une qualité d’image incroyable. Dotée de deux capteurs CMOS de 1 pouce, la ONE RS 1-Inch 360 Edition peut capturer des vidéos en 6K 360° mais aussi des photos de 21 MP 360°. On obtient ainsi des photos dotées d’un grand niveau de détails, y compris en cas de faible luminosité ambiante. Avec sa lentille signée Leica, la ONE RS 1-Inch 360 Edition est compatible avec les Cores des caméras ONE R et ONE RS.  
+
+Dotée de la stabilisation FlowState, la One RS 1-Inch 360 Edition est certifiée IPX3 et ne craint ni une pluie légère, ni la neige. La ONE RS 1-Inch est équipée d’une batterie verticale de 1350 mAh sur laquelle s’installe la lentille. On bénificie du 360 Horizon Lock durant vos prises de vue avec la ONE RS 1-Inch : quel que soit l’angle de vue, l’horizon sera toujours à niveau !  
 
 Nous avons tout d'abord réalisé plusieurs photographies panoramiques de différents bâtiments :
 * Polytech Grenoble (14 Place du Conseil National de la Résistance, 38400 Saint-Martin-d'Hères)
@@ -176,12 +181,19 @@ Nous avons finalement pu réaliser toutes les fonctionnalités se trouvant dans 
 # Métriques logicielles <a id="metriques"></a>
 Métriques logiciels : lignes de code, langages, performance, temps ingénieur (d'après vos journaux), la répartition des lignes de code et des commits en pourcentage entre les membres du projet ...)
 
-nombre de commit par personne :  
-Clara = 33 
-Justin = 21
-Ayman = 42
+* Nombre de commit par personne :   
+Ayman : 47% 
+Clara : 35% 
+Justin : 18% 
 
-nombre de ligne de code : 
+* Nombre de lignes de code total :  
+1366 
+
+* Langages :  
+
+48% JavaScript
+28% CSS
+24% HTML
 
 
 
@@ -201,6 +213,7 @@ La suite de notre projet consistera à réaliser les fonctionnalités optionnell
 * Définition d'une GitHub Page : "https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages"
 * Petroff, Matthew A. "Pannellum: a lightweight web-based panorama viewer." Journal of Open Source Software 4, no. 40 (2019): "https://doi.org/10.21105/joss.01628"
 * Documentation Pannellum : "https://pannellum.org/documentation/overview/"
+* Caméra Insta360 : "https://www.lacameraembarquee.fr/cameras-insta360-one-rs-r/12324-camera-insta360-one-rs-1-inch-leica-360-edition-6970357853243.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh1MYwmMMEPFFpcGbLRLqmhMbEetd_Maxq3y62F15c__Zh06OZlsGRcaAnbjEALw_wcB"
 
 
 
