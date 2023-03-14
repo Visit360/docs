@@ -10,7 +10,7 @@ NGUYEN - Justin
 2. [Résumé](#résumé)
 3. [Contexte](#contexte)
 4. [Technologies employées](#tech)
-5. [Architecture techniques](#archi)
+5. [Architecture technique](#archi)
 6. [Réalisations techniques](#realisation)
 7. [Gestion de projet](#gestion)
 8. [Outils](#outils)
@@ -37,14 +37,12 @@ On utilisera pour cela la bibliothèque Pannellum, qui est open source pour réa
 
 L'objectif du projet est de développer un outil (web) facilitant la construction de visites virtuelles.  
  
-Une visite virtuelle est un moyen de simuler la visite d'un site à 360°. Plusieurs images panoramiques se succèderont au moyen d'interaction avec l'utilisateur. La visite virtuelle permet également à l'utilisateur de lire des information et de se repérer sur une minimap (ou plan de la visite).  
+Une visite virtuelle est un moyen de simuler la visite d'un site à 360°. Plusieurs images panoramiques se succèderont au moyen d'interaction avec l'utilisateur. La visite virtuelle permet également à l'utilisateur de naviguer dans chacune des scènes, de lire des informations et de se repérer sur une minimap (ou plan de la visite) ainsi que de garder une trace de sa navigation dans la visite grâce à un historique.  
 
-L'outil web contient que nous avons conçus plusieurs modes qui sont : 
-* **Le mode visualisation** : il nous permet d'avoir un aperçu de la visite créée dans le mode édition. Nous pouvons également observer la minimap qui correspond au plan de la visite.
-* **Le mode édition** : permettant de créer les visites
-* **Le mode édition minimap** : permet de réaliser une minimap correpondant à la visite.
-
-
+L'outil web que nous avons conçus contient plusieurs modes qui sont : 
+* **Le mode visualisation** : il nous permet d'avoir un aperçu de la visite créée ou modifiée dans le mode édition. Nous pouvons également observer la mini map qui correspond au plan de la visite. 
+* **Le mode édition** : permettant de créer les visites ou de modifier des visites importées
+* **Le mode édition minimap** : permet de réaliser une minimap correpondante à la visite.
 
 ### **Cahier des charges**
 
@@ -57,11 +55,11 @@ Lors des premières semaines de notre projet, nous avons réalisé un cahier des
 * Avoir accès à la console d’historique et pouvoir la réduire et faire défiler.
 * Pouvoir supprimer l’historique via un bouton
 * Se repérer sur la Minimap avec un changement de couleur par exemple
-* Pour se déplacer dans les panoramas de la Minimap en sélectionnant des points d’intérêt.  
+* Pouvoir se déplacer dans les panoramas de la Minimap en sélectionnant des points d’intérêt.  
   
 
 **Mode édition**
-* Sélectionnez les panoramas à ajouter/modifier
+* Sélectionner les panoramas à ajouter/modifier
 * Ajouter des hotspot pour chaque panorama
     * Porte : permet de naviguer d’une panorma à l’autre
     * Fenêtre contextuelle d’information : affiche des renseignements statiques
@@ -130,6 +128,13 @@ L'outil repose sur une architecture client serveur et on utilise une Github page
 En effet, étant donnée que le projet est encore dans une phase de démonstration, nous n'avons pas besoin de base de données, ni d'une architecture très poussée.Les panoramas sont déjà importés dans le dépôt et l'utilisateur n'a pas les moyens pour l'instant d'importer ses propres images. Les visites seront réalisées sous format JSON. 
 
 # Réalisations techniques <a id="realisation"></a>
+Afin de répondre aux différents besoins exprimés en termes de fonctionnalités dans le cahier de charge, nous avons séparé trois modes d'utilisation de VISIT360 : 
+* **Le mode édition** : il nous permet de créer une visite virtuelle d'un bâtiment à partir des images panoramiques disponibles ou de modifier une visite importée. Dans ce mode l'utilisateur peut choisir les scènes à ajouter à sa visite tout en spécifiant le panorama initiale de celle-ci. Il est libre d'ajouter des hotspots (portes/passerelles) pour créer un chemin entre les scènes. Il peut aussi ajouter des points d'information qui peuvent être une description d'un objet ou d'un endroit par exemple. Les points d'information et les portes peuvent être supprimés dans ce mode d'utilisation.  
+Quelques détails techniques ont éte pris en considération pour limiter les erreurs de l'utilisateur tels que le renvoi des avertissements en cas de tentatives d'ajout de scènes avant d'en sélectionner une ou en cas de duplication du nom de la scène.
+
+* **Le mode édition minimap** : permet de réaliser une minimap correpondante à la visite en associant chaque point d'intérêt à la scène qu'il représente. Ainsi nous pouvons permettre le déplacement 
+
+* **Le mode visualisation** : il nous permet d'avoir un aperçu de la visite créée ou modifiée dans le mode édition. Nous pouvons également observer la mini map qui correspond au plan de la visite. L'utilisateur peut naviguer dans la visite à travers les portes figurantes dans chaque scène, ou en sélectionnant sa prochaine destination directement de la mini map. Pour revenir sur ces pas, il suffit de sélectionner l'une des scènes présentes dans l'historique.
 
 # Gestion de projet <a id="gestion"></a>
 
