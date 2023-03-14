@@ -182,18 +182,17 @@ Nous avons finalement pu réaliser toutes les fonctionnalités se trouvant dans 
 Métriques logiciels : lignes de code, langages, performance, temps ingénieur (d'après vos journaux), la répartition des lignes de code et des commits en pourcentage entre les membres du projet ...)
 
 * Nombre de commit par personne :   
-Ayman : 47% 
-Clara : 35% 
-Justin : 18% 
+Ayman : 47%   
+Clara : 35%  
+Justin : 18%  
 
 * Nombre de lignes de code total :  
 1366 
 
-* Langages :  
-
-48% JavaScript
-28% CSS
-24% HTML
+* Langages :
+48% JavaScript  
+28% CSS  
+24% HTML  
 
 
 
