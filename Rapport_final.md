@@ -117,13 +117,24 @@ Même si cette bibliothèque offre plusieurs fonctionnalités très interessante
 Pour coder le site web, nous avons choisi d'utiliser ces trois technologies très classique. Nous n'avons pas utilisé d'autres outils de frontend tel que React ou Angular car cela nous a semblé innutile étant donné la simplicité des pages web à programmer.  
 
 
-<img src="https://github.com/Visit360/docs/blob/main/html_js_css.png" width="300" height="300">
+<img src="https://github.com/Visit360/docs/blob/main/html_js_css.png" width="300" height="300">  
+  
+  
 
 ### **GitHub**
 Utilisation de Github pour l'organisation contenant le dépôt du code et la documentation mais aussi l'hébergement de la Github page.
 
+<img src="https://github.com/Visit360/docs/blob/main/github.png">
+<br>
+<br>  
+
 ### **Monday et google Doc**
 Pour la gestion de projet/planning
+
+<div style='align'>
+<img src="https://github.com/Visit360/docs/blob/main/gdoc.png" width="300" height="250">
+<img src="https://github.com/Visit360/docs/blob/main/monday.png" width="550" height="200">
+</div>
 
 # Architecture technique <a id="archi"></a>
 L'outil repose sur une architecture client serveur et on utilise une Github page pour le déploiement. Selon le site doc.GitHub.com : "GitHub Pages est un service d'hébergement de site statique qui récupère les fichiers HTML, CSS et JavaScript directement à partir d'un référentiel sur GitHub, exécute éventuellement les fichiers via un processus de construction et publie un site Web."  
