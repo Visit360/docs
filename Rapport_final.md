@@ -189,12 +189,10 @@ Justin : 18%
 * Nombre de lignes de code total :  
 1366 
 
-* Langages :
-48% JavaScript  
-28% CSS  
-24% HTML  
-
-
+* Langages :  
+JavaScript : 48%    
+CSS : 28%    
+HTML : 24%    
 
 # Conclusion <a id="conclusion"></a>
 Travailler sur ce projet à temps plein durant plusieurs mois nous à permis de développer nos compétences de développement, de gestion de projet, de prise en main de nouvelles technologies (caméra 360/pannellum) et de communication (aussi bien au sein de notre groupe qu’avec des acteurs extérieurs au projet comme les responsables de différents bâtiments). Ce fut une expérience très enrichissante pour nous et nous avons apprécié travailler sur ce projet innovant.
