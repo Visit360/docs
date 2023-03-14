@@ -175,7 +175,15 @@ nombre de ligne de code :
 
 
 # Conclusion <a id="conclusion"></a>
-Conclusion (Retour d'expérience) 
+Travailler sur ce projet à temps plein durant plusieurs mois nous à permis de développer nos compétences de développement, de gestion de projet, de prise en main de nouvelles technologies (caméra 360/pannellum) et de communication (aussi bien au sein de notre groupe qu’avec des acteurs extérieurs au projet comme les responsables de différents bâtiments). Ce fut une expérience très enrichissante pour nous et nous avons apprécié travailler sur ce projet innovant.
+
+Nous avons réussit à développer toutes les fonctionnalitées attendues dans le cahier des charge, avec quelques fonctionnalités supplémentaires : 
+* L’import de visites déjà préchargées dans le dépôt git (Polytech, Domus, FabLab et Casemate)
+* L’ajout d’un bouton “Clear Visit” permettant à l’utilisateur de revenir à l’état initial (ouverture de la fenêtre)
+* L’ajout d’une barre de recherche pour aider l’utilisateur à trouver les scènes déjà ajoutées 
+
+La suite de notre projet consistera à réaliser les fonctionnalités optionnelles précédemment énoncées. 
+
 
 # Annexes <a id="annexe"></a>
 ### **Références** 
