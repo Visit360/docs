@@ -112,9 +112,7 @@ Pannellum est une bibliothèque *open source* pour la visualisation panoramique 
 C'est également grâce à cette bibliothèque que nous avons pu gérer le zoom au sein de l'image panoramique, l'ajout d'hotspot (portes et informations), et la sauvegarde des visites sous formats JSON.  
 Même si cette bibliothèque offre plusieurs fonctionnalités très interessantes en terme de visualisation d'image panoramique, elle ne contenait pas tout les éléments dont nous avions besoin. Par exemple, Pannellum ne permet pas à l'utilisateur de supprimer des hotspot. L'essentiel de notre travail de développement s'est donc porté sur ces fonctionnalités non disponibles.  
 
-
 <img src="https://github.com/Visit360/docs/blob/main/Pannellum.jpeg" width="300" height="300">
-
 
 ### **HTML - JAVASCRIPT - CSS**
 Pour coder le site web, nous avons choisi d'utiliser ces trois technologies très classique. Nous n'avons pas utilisé d'autres outils de frontend tel que React ou Angular car cela nous a semblé innutile étant donné la simplicité des pages web à programmer.  
@@ -128,6 +126,7 @@ L'outil repose sur une architecture client serveur et on utilise une Github page
 En effet, étant donnée que le projet est encore dans une phase de démonstration, nous n'avons pas besoin de base de données, ni d'une architecture très poussée.Les panoramas sont déjà importés dans le dépôt et l'utilisateur n'a pas les moyens pour l'instant d'importer ses propres images. Les visites seront réalisées sous format JSON. 
 
 # Réalisations techniques <a id="realisation"></a>
+
 Afin de répondre aux différents besoins exprimés en termes de fonctionnalités dans le cahier de charge, nous avons séparé trois modes d'utilisation de VISIT360 : 
 * **Le mode édition** : il nous permet de créer une visite virtuelle d'un bâtiment à partir des images panoramiques disponibles ou de modifier une visite importée. Dans ce mode, l'utilisateur peut choisir les scènes à ajouter à sa visite tout en spécifiant le panorama initiale de celle-ci. Il est libre d'ajouter des hotspots (portes/passerelles) pour créer un chemin entre les scènes. Il peut aussi ajouter des points d'information qui peuvent être une description d'un objet ou d'un endroit par exemple. Les points d'information et les portes peuvent être supprimés dans ce mode d'utilisation. Quand l'utilisateur finit son édition de la visite, il peut l'exporter et celle-ci sera téléchargée sous format Json. Cette même visite pourra être importée par la suite sous le même format pour lui appliquer de nouvelles modifications.  
 Quelques détails techniques ont éte pris en considération pour limiter les erreurs de l'utilisateur tels que le renvoi des avertissements en cas de tentatives d'ajout de scènes avant d'en sélectionner une ou en cas de duplication du nom de la scène.
@@ -135,7 +134,9 @@ Quelques détails techniques ont éte pris en considération pour limiter les er
 * **Le mode édition minimap** : ce mode permet de réaliser une mini map correpondante à la visite en associant chaque point d'intérêt à la scène qu'il représente. Ainsi nous pouvons permettre le déplacement dans la visite à partir de la mini map et l'utilisateur peut se repérer facilement, grâce au changement de couleur, dans la mini carte qui dans notre exemple représente le plan de masse du bâtiment.  
 Pour aider l'utilisateur à associer les scènes aux points d'intérêt, on lui propose une liste déroulante avec les noms de scènes de la visite editée. Aussi, la suppression de ces est possible avec un simple clic droit.  
 
-* **Le mode visualisation** : il nous permet d'avoir un aperçu de la visite créée ou modifiée dans le mode édition. Nous pouvons également observer la mini map qui correspond au plan de la visite. L'utilisateur peut naviguer dans la visite à travers les portes figurantes dans chaque scène, ou en sélectionnant sa prochaine destination directement de la mini map. Pour revenir sur ces pas, il suffit de sélectionner l'une des scènes présentes dans l'historique.
+* **Le mode visualisation** : il nous permet d'avoir un aperçu de la visite créée ou modifiée dans le mode édition. Nous pouvons également observer la mini map qui correspond au plan de la visite. L'utilisateur peut naviguer dans la visite à travers les portes figurantes dans chaque scène, ou en sélectionnant sa prochaine destination directement de la mini map. Pour revenir sur ces pas, il suffit de sélectionner l'une des scènes présentes dans l'historique.  
+
+Pour la réalisation de ces fonctionalités, on s'est basé sur la bibliothèque Pannellum v2.5.6 pour avoir les fonctionnalités de base, notamment la navigation entre les scènes, mais on a aussi profité de son API Open Source afin d'implémenter d'autres fonctionnalités telles que la suppression des différents hotspots, la configuration des visites ainsi que l'import et l'export de celles-ci.
 
 # Gestion de projet <a id="gestion"></a>
 
