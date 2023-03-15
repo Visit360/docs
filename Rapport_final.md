@@ -179,7 +179,6 @@ Nous avons finalement pu réaliser toutes les fonctionnalités se trouvant dans 
 
 
 # Métriques logicielles <a id="metriques"></a>
-Métriques logiciels : lignes de code, langages, performance, temps ingénieur (d'après vos journaux), la répartition des lignes de code et des commits en pourcentage entre les membres du projet ...)
 
 * Nombre de commit par personne :   
 Ayman : 47%   
