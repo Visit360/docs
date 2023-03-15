@@ -160,7 +160,9 @@ Pour la réalisation de ces fonctionalités, on s'est basé sur la bibliothèque
 
 ## Difficultés rencontrées
 
-Nous avons eu quelques difficultés au début pour adopter les différentes technologies utilisées, notamment au niveau de l'utilisation de JavaScript et de la bibliothèque Pannellum. Même si cette dernière reste robuste au niveau de la création des visites virtuelles et de navigation dans les scènes, mais il manque toujours des fonctionnalités importantes qu'on aurait aimé integré à notre outil VISIT360. Par exemple le drag & drop des différents hotspots et l'ajout d'autres types de hotspots avec du contenu multimédia (image, vidéo ou son). Ceci peut être expliqué par le fait que la dernière version stable de Pannellum est la v2.5.6 qui est sortie en 2019 et actuellement il y a une autre version en cours de développement qui contiendra plus de fonctionnalités. Aussi la documentation de Pannellum n'est pas bien détaillée et il peut être difficille de trouver des solutions pour les problèmes liés à cette bibliothèque car elle n'est pas très répandue et les ressources en ligne sont limitées.
+Nous avons eu quelques difficultés au début pour adopter les différentes technologies utilisées, notamment au niveau de l'utilisation de JavaScript et de la bibliothèque Pannellum. Même si cette dernière reste robuste au niveau de la création des visites virtuelles et de navigation dans les scènes, mais il manque toujours des fonctionnalités importantes qu'on aurait aimé integrer à notre outil VISIT360. Par exemple le drag & drop des différents hotspots et l'ajout d'autres types de hotspots avec du contenu multimédia (image, vidéo ou son). Ceci peut être expliqué par le fait que la dernière version stable de Pannellum est la v2.5.6 qui est sortie en 2019 et actuellement il y a une autre version en cours de développement qui contiendra plus de fonctionnalités. Aussi la documentation de Pannellum n'est pas bien détaillée et il peut être difficille de trouver des solutions pour les problèmes liés à cette bibliothèque car elle n'est pas très répandue et les ressources en ligne sont limitées.  
+
+Au niveau du matériel, l'utilisation de la caméra 360-RS n'a pas été évidente au début, il a fallu qu'on teste les différents modes de photographie qu'elle propose et de choisir celui qui nous convient pour les scènes panoramiques dans les bâtiments. Aussi nous avons eu quelques problèmes techniques liés à l'application utilisée pour le transfert des photos.  
 
 # Gestion de projet <a id="gestion"></a>  
 
@@ -212,11 +214,3 @@ La suite de notre projet consistera à réaliser les fonctionnalités optionnell
 * Petroff, Matthew A. "Pannellum: a lightweight web-based panorama viewer." Journal of Open Source Software 4, no. 40 (2019): "https://doi.org/10.21105/joss.01628"
 * Documentation Pannellum : "https://pannellum.org/documentation/overview/"
 * Caméra Insta360 : "https://www.lacameraembarquee.fr/cameras-insta360-one-rs-r/12324-camera-insta360-one-rs-1-inch-leica-360-edition-6970357853243.html?gclid=Cj0KCQjwtsCgBhDEARIsAE7RYh1MYwmMMEPFFpcGbLRLqmhMbEetd_Maxq3y62F15c__Zh06OZlsGRcaAnbjEALw_wcB"
-
-
-
-
-
-
-
- 
