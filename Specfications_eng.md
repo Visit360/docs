@@ -20,7 +20,8 @@ We have two modes in this software, we can switch between the two (with a button
 * Select Polytech panoramas to Edit
 * Add hotspots for each panorama 
      - Door: allows navigation from one panorma to another
-     - Information pop-up: displays static information 
+     - Information pop-up: displays static information
+* Export visit into a JSON file 
 * Edit the MiniMap based on the floor plan : 
     - Add points of interest
     - Associate panoramas
