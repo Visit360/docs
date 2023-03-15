@@ -158,9 +158,7 @@ Pour aider l'utilisateur à associer les scènes aux points d'intérêt, on lui 
 
 Pour la réalisation de ces fonctionalités, on s'est basé sur la bibliothèque Pannellum v2.5.6 pour avoir les fonctionnalités de base, notamment la navigation entre les scènes, mais on a aussi profité de son API Open Source afin d'implémenter d'autres fonctionnalités telles que la suppression des différents hotspots, la configuration des visites ainsi que l'import et l'export de celles-ci.
 
-# Gestion de projet <a id="gestion"></a>
-
-Gestion de projet (méthode, planning prévisionnel et effectif, gestion des risques, rôles des membres ...)  
+# Gestion de projet <a id="gestion"></a>  
 
 Dans cette partie, nous allons aborder notre gestion de projet. 
 
